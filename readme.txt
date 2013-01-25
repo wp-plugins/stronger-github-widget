@@ -12,8 +12,6 @@ A plugin to display your Github informations.
 
 == Description ==
 
-A plugin to display your Github informations.
-
 You can display :
 
 * Repositories
@@ -69,12 +67,12 @@ Then you will be limited to 5000 requests per hour. It should be enough!
 == Screenshots ==
 
 1. Widget Settings
-2. Widget in action for type Events
-3. Widget in action for type Repositories
-4. Widget in action for type Starred
-5. Widget in action for type Followers
-6. Widget in action for type Following
-7. Widget in action for type Subscriptions
+2. Widget in action for Events
+3. Widget in action for Repositories
+4. Widget in action for Starred
+5. Widget in action for Followers
+6. Widget in action for Following
+7. Widget in action for Subscriptions
 
 == Changelog ==
 
