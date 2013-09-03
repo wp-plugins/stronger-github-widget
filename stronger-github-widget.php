@@ -103,8 +103,8 @@ class PSK_Stronger_GitHub_Widget extends WP_Widget {
 		$api_url   = ( $type == '' ) ? PSK_SGW_GITHUB_API_URL . $username : PSK_SGW_GITHUB_API_URL . $username . '/' . $type . '?sort=updated';
 
 		if ( false === ( $result = get_transient( $transient ) ) ) {
-			$gh_api = wp_remote_get( $api_url , PSK_SGW_GITHUB_API_OPT );
-			$result = json_decode( wp_remote_retrieve_body( $gh_api , PSK_SGW_GITHUB_API_OPT ) );
+			$gh_api = wp_remote_get( $api_url , $PSK_SGW_GITHUB_API_OPT );
+			$result = json_decode( wp_remote_retrieve_body( $gh_api , $PSK_SGW_GITHUB_API_OPT ) );
 
 			delete_transient( $transient );
 

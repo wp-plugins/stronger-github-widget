@@ -4,7 +4,7 @@ Donate link: http://www.potsky.com/donate/
 Tags: widget, github, cache, fast, events, Repositories, Subscriptions, Events, Starred, Followers, Following
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -51,6 +51,9 @@ Something like : https://api.github.com/users/MAGICALUSER/events
 2. Widget Settings
 
 == Changelog ==
+
+= 0.3 =
+* Internal options change
 
 = 0.2 =
 * Remove SSL Verify from the Github API Calls
