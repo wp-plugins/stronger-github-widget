@@ -1,5 +1,5 @@
 <?php
-define(	'PSK_SGW_VERSION'  			, '0.1');
+define(	'PSK_SGW_VERSION'  			, '0.2');
 
 
 /*
@@ -11,6 +11,7 @@ define(	'PSK_SGW_ID'       			, 'psk_sgw');
 
 define( 'PSK_SGW_GITHUB_URL'        , 'https://www.github.com/' );
 define( 'PSK_SGW_GITHUB_API_URL'    , 'https://api.github.com/users/' );
+define( 'PSK_SGW_GITHUB_API_OPT'    , array( 'sslverify' => false) );
 
 
 /*
