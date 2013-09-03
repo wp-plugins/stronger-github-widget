@@ -4,7 +4,7 @@ Plugin Name: Stronger GitHub Widget
 Plugin URI: http://www.potsky.com/code/wordpress-plugins/psk-stronger-github-widget/
 Description:    A plugin to display your latest GitHub events, commits, and more in a widget.
                 It uses a server cache to be very light and fast in your WordPress installation.
-Version: 0.2
+Version: 0.3
 Date: 2013-08-31
 Author: Potsky
 Author URI: http://www.potsky.com/about/
