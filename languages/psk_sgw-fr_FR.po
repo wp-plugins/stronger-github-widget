@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: s2member Secure File Browser\n"
+"POT-Creation-Date: 2013-01-24 13:06+0100\n"
+"PO-Revision-Date: 2013-01-24 13:10+0100\n"
+"Last-Translator: potsky <potsky@me.com>\n"
+"Language-Team: potsky <potsky@me.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_x;_e;__;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: stronger-github-widget.php:54
+msgid "Repositories"
+msgstr "Dépôt"
+
+#: stronger-github-widget.php:55
+msgid "Subscriptions"
+msgstr "Abonnement"
+
+#: stronger-github-widget.php:56
+msgid "Events"
+msgstr "Evénement"
+
+#: stronger-github-widget.php:57
+msgid "Starred"
+msgstr "Vedette"
+
+#: stronger-github-widget.php:58
+msgid "Followers"
+msgstr "Suiveurs"
+
+#: stronger-github-widget.php:59
+msgid "Following"
+msgstr "Ceux que je suis"
+
+#: stronger-github-widget.php:63
+msgid "No logo"
+msgstr "Pas de logo"
+
+#: stronger-github-widget.php:64
+msgid "GitHub logo : small"
+msgstr "Logo GitHub : petit"
+
+#: stronger-github-widget.php:65
+msgid "GitHub logo : normal"
+msgstr "Logo GitHub : normal"
+
+#: stronger-github-widget.php:66
+msgid "GitHub logo : big"
+msgstr "Logo GitHub : grand"
+
+#: stronger-github-widget.php:67
+msgid "User gravatar : Small"
+msgstr "Avatar de l'utilisateur : petit"
+
+#: stronger-github-widget.php:68
+msgid "User gravatar : Normal"
+msgstr "Avatar de l'utilisateur : normal"
+
+#: stronger-github-widget.php:72
+msgid "No username"
+msgstr "Pas de nom d'utilisateur"
+
+#: stronger-github-widget.php:73
+msgid "Username only"
+msgstr "Nom d'utilisateur uniquement"
+
+#: stronger-github-widget.php:74
+msgid "Username @ GitHub"
+msgstr "Nom d'utilisateur @ GitHub"
+
+#: stronger-github-widget.php:79
+msgid "Display your GitHub informations"
+msgstr "Afficher vos informations GitHub"
+
+#: stronger-github-widget.php:225
+msgid "Github error!"
+msgstr "Erreur GitHub !"
+
+#: stronger-github-widget.php:232
+msgid "Title"
+msgstr "Titre"
+
+#: stronger-github-widget.php:235
+msgid "Title of the widget as it appears on the page"
+msgstr "Titre du widget tel qu'il apparait sur la page"
+
+#: stronger-github-widget.php:238
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: stronger-github-widget.php:241
+msgid "Your Github username"
+msgstr "Votre nom d'utilisateur GitHub"
+
+#: stronger-github-widget.php:244
+msgid "What to show"
+msgstr "Quelles données monter"
+
+#: stronger-github-widget.php:252
+msgid "Number of items to show"
+msgstr "Nombre de données à montrer"
+
+#: stronger-github-widget.php:256
+msgid "Set to 0 to display all items"
+msgstr "Mettre à 0 pour tout montrer"
+
+#: stronger-github-widget.php:259
+msgid "Show forked repositories"
+msgstr "Montrer les dépôts branchés"
+
+#: stronger-github-widget.php:263
+msgid "Show users gravatar"
+msgstr "Montrer les gravatars des utilisateurs"
+
+#: stronger-github-widget.php:267
+msgid "Show separators"
+msgstr "Montrer les séparateurs"
+
+#: stronger-github-widget.php:271
+msgid "Show description"
+msgstr "Montrer les descriptions"
+
+#: stronger-github-widget.php:275
+msgid "Show dates"
+msgstr "Montrer les dates"
+
+#: stronger-github-widget.php:279
+msgid "Show links"
+msgstr "Afficher les liens"
+
+#: stronger-github-widget.php:283
+msgid "Display header logo"
+msgstr "Afficher le logo d'entête"
+
+#: stronger-github-widget.php:291
+msgid "Display header username"
+msgstr "Afficher le nom d'utilisateur dans l'entête"
+
+#: stronger-github-widget.php:488
+msgid "Follow"
+msgstr ""
+
+#: stronger-github-widget.php:495
+msgid "Commit Comment"
+msgstr ""
+
+#: stronger-github-widget.php:502
+msgid "Create"
+msgstr ""
+
+#: stronger-github-widget.php:509
+msgid "Delete"
+msgstr ""
+
+#: stronger-github-widget.php:516
+msgid "Download"
+msgstr ""
+
+#: stronger-github-widget.php:523
+msgid "Fork"
+msgstr ""
+
+#: stronger-github-widget.php:530
+msgid "Fork Apply"
+msgstr ""
+
+#: stronger-github-widget.php:537
+msgid "Gist"
+msgstr ""
+
+#: stronger-github-widget.php:544
+msgid "Gollum"
+msgstr ""
+
+#: stronger-github-widget.php:551
+msgid "Issue Comment"
+msgstr ""
+
+#: stronger-github-widget.php:558
+msgid "Issues"
+msgstr ""
+
+#: stronger-github-widget.php:565
+msgid "Member"
+msgstr ""
+
+#: stronger-github-widget.php:572
+msgid "Public"
+msgstr ""
+
+#: stronger-github-widget.php:579
+msgid "Pull Request"
+msgstr ""
+
+#: stronger-github-widget.php:586
+msgid "Pull Request Review Comment"
+msgstr ""
+
+#: stronger-github-widget.php:593
+msgid "Push"
+msgstr ""
+
+#: stronger-github-widget.php:600
+msgid "Team Add"
+msgstr ""
+
+#: stronger-github-widget.php:607
+msgid "Watch"
+msgstr ""
