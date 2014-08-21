@@ -4,8 +4,8 @@ Plugin Name: Stronger GitHub Widget
 Plugin URI: http://www.potsky.com/code/wordpress-plugins/psk-stronger-github-widget/
 Description:    A plugin to display your latest GitHub events, commits, and more in a widget.
                 It uses a server cache to be very light and fast in your WordPress installation.
-Version: 0.3
-Date: 2013-08-31
+Version: 0.4
+Date: 2014-08-17
 Author: Potsky
 Author URI: http://www.potsky.com/about/
 Licence:
@@ -434,7 +434,7 @@ class PSK_Stronger_GitHub_Widget extends WP_Widget {
 			$r .= ( $show_photo ) ? '<img style="float:left;width:32px;height:32px;margin-right:5px;margin-top:5px;border:1px solid #888;" src="' . $item->owner->avatar_url . '" />' : '';
 			$r .= '<strong>' . $name . '</strong>';
 			$r .= ( $show_description ) ? '<br/>' . $item->description : '';
-			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . '</small>' : '';
+			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . ' UTC</small>' : '';
 			$r .= ( $show_hr ) ? '<div style="width:100%;height:5px;border-bottom:1px solid #888;opacity:0.2"/>' : '';
 			$r .= '</li>';
 
@@ -608,7 +608,7 @@ class PSK_Stronger_GitHub_Widget extends WP_Widget {
 			$r .= ( $show_photo ) ? '<img style="float:left;width:32px;height:32px;margin-right:5px;margin-top:5px;border:1px solid #888;" src="' . $img . '" />' : '';
 			$r .= '<strong>' . $event . '</strong>';
 			$r .= ( $desc != '' ) ? '<br/>' . $desc : '';
-			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $date ) ) . '</small>' : '';
+			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $date ) ) . ' UTC</small>' : '';
 			$r .= ( $show_hr ) ? '<div style="width:100%;height:5px;border-bottom:1px solid #888;opacity:0.2"/>' : '';
 			$r .= '</li>';
 
@@ -647,7 +647,7 @@ class PSK_Stronger_GitHub_Widget extends WP_Widget {
 			$r .= ( $show_photo ) ? '<img style="float:left;width:32px;height:32px;margin-right:5px;margin-top:5px;border:1px solid #888;" src="' . $item->owner->avatar_url . '" />' : '';
 			$r .= '<strong>' . $name . '</strong>';
 			$r .= ( $show_description ) ? '<br/>' . $item->description : '';
-			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . '</small>' : '';
+			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . ' UTC</small>' : '';
 			$r .= ( $show_hr ) ? '<div style="width:100%;height:5px;border-bottom:1px solid #888;opacity:0.2"/>' : '';
 			$r .= '</li>';
 
@@ -723,7 +723,7 @@ class PSK_Stronger_GitHub_Widget extends WP_Widget {
 			$r .= ( $show_photo ) ? '<img style="float:left;width:32px;height:32px;margin-right:5px;margin-top:5px;border:1px solid #888;" src="' . $item->owner->avatar_url . '" />' : '';
 			$r .= '<strong>' . $name . '</strong>';
 			$r .= ( $show_description ) ? '<br/>' . $item->description : '';
-			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . '</small>' : '';
+			$r .= ( $show_date ) ? '<br/><small>' . date_i18n( sprintf( '%1$s - %2$s' , get_option( 'date_format' ) , get_option( 'time_format' ) ) , strtotime( $item->updated_at ) ) . ' UTC</small>' : '';
 			$r .= ( $show_hr ) ? '<div style="width:100%;height:5px;border-bottom:1px solid #888;opacity:0.2"/>' : '';
 			$r .= '</li>';
 
